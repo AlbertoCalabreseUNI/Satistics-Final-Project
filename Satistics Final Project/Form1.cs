@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Satistics_Final_Project.Homeork_Forms;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -21,6 +22,12 @@ namespace Satistics_Final_Project
         {
             var Homework1Form = new Form2();
             Homework1Form.Show();
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            var Homework2Form = new Form3();
+            Homework2Form.Show();
         }
     }
 }
