@@ -16,5 +16,11 @@ namespace Satistics_Final_Project
         {
             InitializeComponent();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            var Homework1Form = new Form2();
+            Homework1Form.Show();
+        }
     }
 }
