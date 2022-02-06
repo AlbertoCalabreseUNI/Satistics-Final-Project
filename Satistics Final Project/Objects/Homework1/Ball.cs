@@ -38,6 +38,20 @@ namespace Satistics_Final_Project.Objects
             g.DrawEllipse(this.borderColor, this.posX, this.posY, this.width, this.height);
         }
 
+        public void DrawWithText(Graphics g, Font font, String text)
+        {
+            g.FillEllipse(this.ballColor, this.posX, this.posY, this.width, this.height);
+            g.DrawEllipse(this.borderColor, this.posX, this.posY, this.width, this.height);
+
+            using (StringFormat sf = new StringFormat())
+            {
+                sf.Alignment = StringAlignment.Center;
+                sf.LineAlignment = StringAlignment.Center;
+
+                g.DrawString($"{text}", font, Brushes.Black, new RectangleF(this.posX, this.posY, this.width, this.height), sf);
+            }
+        }
+
         public void Update()
         {
             this.posX += this.speedX;

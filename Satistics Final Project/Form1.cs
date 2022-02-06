@@ -29,5 +29,11 @@ namespace Satistics_Final_Project
             var Homework2Form = new Form3();
             Homework2Form.Show();
         }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            var Homework3Form = new Form4();
+            Homework3Form.Show();
+        }
     }
 }

@@ -8,9 +8,10 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-
-namespace Satistics_Final_Project.Properties
-{
+namespace Satistics_Final_Project.Properties {
+    using System;
+    
+    
     /// <summary>
     ///   A strongly-typed resource class, for looking up localized strings, etc.
     /// </summary>
@@ -18,52 +19,150 @@ namespace Satistics_Final_Project.Properties
     // class via a tool like ResGen or Visual Studio.
     // To add or remove a member, edit your .ResX file then rerun ResGen
     // with the /str option, or rebuild your VS project.
-    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Resources.Tools.StronglyTypedResourceBuilder", "4.0.0.0")]
+    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Resources.Tools.StronglyTypedResourceBuilder", "16.0.0.0")]
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
-    internal class Resources
-    {
-
+    internal class Resources {
+        
         private static global::System.Resources.ResourceManager resourceMan;
-
+        
         private static global::System.Globalization.CultureInfo resourceCulture;
-
+        
         [global::System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1811:AvoidUncalledPrivateCode")]
-        internal Resources()
-        {
+        internal Resources() {
         }
-
+        
         /// <summary>
         ///   Returns the cached ResourceManager instance used by this class.
         /// </summary>
         [global::System.ComponentModel.EditorBrowsableAttribute(global::System.ComponentModel.EditorBrowsableState.Advanced)]
-        internal static global::System.Resources.ResourceManager ResourceManager
-        {
-            get
-            {
-                if ((resourceMan == null))
-                {
+        internal static global::System.Resources.ResourceManager ResourceManager {
+            get {
+                if (object.ReferenceEquals(resourceMan, null)) {
                     global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("Satistics_Final_Project.Properties.Resources", typeof(Resources).Assembly);
                     resourceMan = temp;
                 }
                 return resourceMan;
             }
         }
-
+        
         /// <summary>
         ///   Overrides the current thread's CurrentUICulture property for all
         ///   resource lookups using this strongly typed resource class.
         /// </summary>
         [global::System.ComponentModel.EditorBrowsableAttribute(global::System.ComponentModel.EditorBrowsableState.Advanced)]
-        internal static global::System.Globalization.CultureInfo Culture
-        {
-            get
-            {
+        internal static global::System.Globalization.CultureInfo Culture {
+            get {
                 return resourceCulture;
             }
-            set
-            {
+            set {
                 resourceCulture = value;
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to I TRE CANI
+        ///(Italo Calvino - Fiabe Italiane - Giulio Einaudi editore S.p.A. - 1956)
+        ///
+        ///C’era una volta un vecchio contadino che aveva un figlio e una figlia. Quando venne a morire, li chiamò al suo capezzale e disse : - Figlioli miei, sto per morire e non ho nulla da lasciarvi: solo tre pecorine nella stalla. Cercate di andare d’accordo, e non avrete da patir la fame.
+        ///Quando fu morto, fratello e sorella seguitarono a stare insieme: il ragazzo andava dietro alle pecore e la ragazza stava a casa a filare e a [rest of string was truncated]&quot;;.
+        /// </summary>
+        internal static string itrecani {
+            get {
+                return ResourceManager.GetString("itrecani", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to 0
+        ///1
+        ///10
+        ///11
+        ///12
+        ///13
+        ///14
+        ///15
+        ///16
+        ///17
+        ///18
+        ///19
+        ///2
+        ///20
+        ///3
+        ///4
+        ///5
+        ///6
+        ///7
+        ///8
+        ///9
+        ///A
+        ///ABBIA
+        ///ABBIAMO
+        ///ABBIANO
+        ///ABBIATE
+        ///AD
+        ///AGL
+        ///AGLI
+        ///AI
+        ///AL
+        ///ALL
+        ///ALLA
+        ///ALLE
+        ///ALLO
+        ///ALTRA
+        ///ALTRE
+        ///ALTRI
+        ///ALTRO
+        ///ANCHE
+        ///ANCOR 
+        ///ANCORA
+        ///ART
+        ///AVEMMO
+        ///AVENDO
+        ///AVERE
+        ///AVESSE
+        ///AVESSERO
+        ///AVESSI
+        ///AVESSIMO
+        ///AVESTE
+        ///AVESTI
+        ///AVETE
+        ///AVEVA
+        ///AVEVAMO
+        ///AVEVANO
+        ///AVEVATE
+        ///AVEVI
+        ///AVEVO
+        ///AVRAI
+        ///AVRANNO
+        ///AVREBBE
+        ///AVREBBERO
+        ///AVREI
+        ///AVREMMO
+        ///AVREMO
+        ///AVRESTE
+        ///AVRESTI
+        ///AVRETE
+        ///AVRÀ
+        ///AVRÒ
+        ///AVUTA
+        ///AVUTE
+        ///AVUTI
+        ///AVUTO
+        ///B
+        ///C
+        ///C&apos;E&apos;
+        ///C&apos;È
+        ///CE
+        ///CH
+        ///CHE
+        ///CHI
+        ///CHÉ
+        ///CI        /// [rest of string was truncated]&quot;;.
+        /// </summary>
+        internal static string stopwords {
+            get {
+                return ResourceManager.GetString("stopwords", resourceCulture);
             }
         }
     }
